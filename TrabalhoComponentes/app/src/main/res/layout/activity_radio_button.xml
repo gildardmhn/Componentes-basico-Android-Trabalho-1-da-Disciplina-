@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioButtonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_um"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Um"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_dois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dois"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_tres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Três"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_outro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Outro"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
